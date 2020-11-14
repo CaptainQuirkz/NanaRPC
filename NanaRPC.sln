@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanaRPC", "NanaRPC\NanaRPC.csproj", "{DBE78AFC-30F9-43C8-815D-CBE2F217E32A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE78AFC-30F9-43C8-815D-CBE2F217E32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE78AFC-30F9-43C8-815D-CBE2F217E32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE78AFC-30F9-43C8-815D-CBE2F217E32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE78AFC-30F9-43C8-815D-CBE2F217E32A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DDE79F7-45EA-4380-A60D-C7686C5759CF}
+	EndGlobalSection
+EndGlobal
