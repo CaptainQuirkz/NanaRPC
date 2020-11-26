@@ -80,8 +80,8 @@ namespace NanaRichPresence
 					client.UpdateDetails("Editing Tags");
 				}
 				else if (PageID == null)
-				{ 
-
+				{
+					client.UpdateDetails("In the void");
 				}
 				else
 				{
