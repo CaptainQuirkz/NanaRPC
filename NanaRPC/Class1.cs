@@ -16,6 +16,7 @@ namespace NanaRichPresence
 		[EntryPoint]
 		public static void Initialize()
 		{
+			Console.SetOut(System.IO.TextWriter.Null);
 			DiscordRpcClient client;
 			client = new DiscordRpcClient("775858810816299009");
 			client.Logger = new ConsoleLogger() { Level = LogLevel.Warning };
@@ -77,6 +78,10 @@ namespace NanaRichPresence
 				else if (PageID == "hydroxa.nanaManager:pg_tagMan")
 				{
 					client.UpdateDetails("Editing Tags");
+				}
+				else if (PageID == null)
+				{ 
+
 				}
 				else
 				{
